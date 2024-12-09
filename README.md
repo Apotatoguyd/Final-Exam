@@ -1,0 +1,8 @@
+For the Graphic Improvements of Yoshi Safari I have implemented 4 shaders, Color Correction, Scrolling Texture, Toon and Outline. 
+For the Scrolling Texture I just had the grass texture scrolling while also adding a color tint in order to make the grass look brighter when the color correction is applied.
+For the color correction I used a lut that will be applied over the camera however the lut will be a nuetral but is fully adjustable with the scrolls affecting the green and red of the lut inorder to achieve a color correction that is similer to the game.
+![image](https://github.com/user-attachments/assets/5c38d257-beaf-4e95-b529-1e6107fb4ffd)
+I utilized both the toon and outline because Mario has always been a toon themed game with an outline so why would I changed it? I first have applied the toon shading aswell as making the ramp (O.5 + 0.5) into a range 
+so that I can edit the ramp without having to edit the code which makes my life easier. I then have a code do a pass so the render creates a second model for the outline and extrude of the normal to give the outline effect.
+The gameplay however is very basic at best because I can't really program games on my own and It would be a waste of time doing it. I tried to add basic movement by adding force to the rigid body inorder for movement but It didn't work for some reason and the bullet dosen't also have any force to the bullet.
+The goomba collisions dosen't work because I don't know on top of my head how the detect other collisions so I gave up aswell as using the navmesh for the goomba AI. so please forgive me for the bare miniumem scene.
